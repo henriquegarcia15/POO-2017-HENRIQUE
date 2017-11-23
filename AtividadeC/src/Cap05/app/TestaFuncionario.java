@@ -8,7 +8,7 @@ import javax.swing.*;
 public class TestaFuncionario {
     public static void main(String[] args) {
 
-        Data dataF1 = new Data(23,03,2017);
+        Data dataF1 = new Data(23,3,2017);
         Funcionario f1 = new Funcionario(
                 "Henrique",
                 "Informática",
@@ -17,7 +17,7 @@ public class TestaFuncionario {
                 "3.530.868"
         );
 
-        Data dataF2 = new Data(20,04,2017);
+        Data dataF2 = new Data(20,4,2017);
         Funcionario f2 = new Funcionario(
                 "Garcia",
                 "TI",
