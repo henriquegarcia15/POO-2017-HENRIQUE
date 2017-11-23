@@ -1,4 +1,4 @@
-package Cap05;
+package Cap05.model;
 
 public class Data {
 

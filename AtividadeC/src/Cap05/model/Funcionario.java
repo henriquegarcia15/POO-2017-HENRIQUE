@@ -1,4 +1,4 @@
-package Cap05;
+package Cap05.model;
 
 public class Funcionario {
     private String nome;
@@ -63,6 +63,7 @@ public class Funcionario {
         return this.salario * 12;
     }
 
+    @Override
     public String toString(){
         String s = "\n------- FUNCIONÁRIOS -------\n";
         s += "Nome: "+ this.getNome() +"\n";

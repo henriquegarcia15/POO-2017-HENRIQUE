@@ -1,4 +1,7 @@
-package Cap05;
+package Cap05.app;
+
+import Cap05.model.Data;
+import Cap05.model.Funcionario;
 
 import javax.swing.*;
 
