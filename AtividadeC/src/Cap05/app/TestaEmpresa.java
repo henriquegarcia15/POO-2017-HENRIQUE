@@ -5,7 +5,6 @@ import Cap05.model.Empresa;
 import Cap05.model.Funcionario;
 
 import javax.swing.*;
-import java.util.jar.JarOutputStream;
 
 public class TestaEmpresa {
     public static void main(String[] args) {
@@ -14,14 +13,14 @@ public class TestaEmpresa {
 
         for (int i = 0; i < 3; i++) {
             Data dataF1 = new Data(23,3,2017);
-            Funcionario f1 = new Funcionario(
+            Funcionario f = new Funcionario(
                     "Henrique",
                     "Informática",
-                    740.00 + i,
+                    740.00 + i * 100,
                     dataF1,
                     "3.530.868"
             );
-            empresa.adiciona(f1);
+            empresa.adiciona(f);
 
             /*
             Data dataF2 = new Data(25,9,2017);

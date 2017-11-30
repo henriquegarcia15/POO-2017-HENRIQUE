@@ -14,6 +14,11 @@ public class Empresa {
     }
 
     public void adiciona(Funcionario f){
+
+        //if ( > 10){
+
+        //}
+
         this.empregados[pos] = f;
         pos++;
     }
@@ -39,7 +44,7 @@ public class Empresa {
         String s = "Nome da Empresa: "+ this.getNome() +"\n";
         s += "CNPJ: "+ this.getCnpj() +"\n\n";
 
-        for (int i = 0; i < this.empregados.length; i++) {
+        for (int i = 0; i < 3; i++) {
             s += "> "+ this.empregados[i].toString();
         }
         return s;
