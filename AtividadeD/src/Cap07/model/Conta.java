@@ -5,7 +5,6 @@ public class Conta {
     protected double saldo;
 
     public Conta() {
-
     }
 
     public void deposita(double valor){
