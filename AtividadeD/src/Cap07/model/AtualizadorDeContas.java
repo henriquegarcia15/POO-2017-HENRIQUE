@@ -10,6 +10,12 @@ public class AtualizadorDeContas {
     }
 
     public void roda(Conta c){
-        
+        System.out.println(c.getSaldo());
+        c.atualiza(0.8);
+        System.out.println(c.getSaldo() + this.saldoTotal);
+    }
+
+    public double getSaldoTotal() {
+        return saldoTotal;
     }
 }
