@@ -18,7 +18,7 @@ public class TestaAtualizadorDeContas {
 
         System.out.println("\nDepósito realizado.\n");
 
-        AtualizadorDeContas adc = new AtualizadorDeContas(0.01);
+        AtualizadorDeContas adc = new AtualizadorDeContas(1);
 
 //        System.out.println("Atualizador de contas.\n");
 

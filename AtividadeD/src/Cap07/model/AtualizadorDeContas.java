@@ -12,7 +12,7 @@ public class AtualizadorDeContas {
     public void roda(Conta c){
         System.out.println("Saldo anterior: "+ c.getSaldo());
         c.atualiza(0.01);
-        System.out.println("Saldo final: "+ c.getSaldo() + this.saldoTotal);
+        System.out.println("Saldo final: "+ (c.getSaldo() + this.saldoTotal));
     }
 
     public double getSelic() {
