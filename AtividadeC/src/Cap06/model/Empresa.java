@@ -1,16 +1,21 @@
-package Cap05.model;
+package Cap06.model;
 
 public class Empresa {
 
     private String nome;
     private String cnpj;
     public Funcionario[] empregados;
-    private int pos = 0;
+    private int pos = 1;
+    private int qtdFuncionarios;
 
-    public Empresa(String nome, String cnpj) {
+    public Empresa(String nome, String cnpj, int qtdFuncionarios) {
         this.nome = nome;
         this.cnpj = cnpj;
-        this.empregados = new Funcionario[10];
+        this.empregados = new Funcionario[qtdFuncionarios];
+    }
+
+    public Funcionario getFuncionario(int posicao){
+        return this.empregados[posicao];
     }
 
     public void adiciona(Funcionario f){
@@ -39,7 +44,7 @@ public class Empresa {
         String s = "Nome da Empresa: "+ this.getNome() +"\n";
         s += "CNPJ: "+ this.getCnpj() +"\n\n";
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < this.qtdFuncionarios; i++) {
             s += "> "+ this.empregados[i].toString();
         }
         return s;

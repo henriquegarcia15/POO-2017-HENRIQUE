@@ -2,7 +2,6 @@ package Cap06.app;
 
 import Cap06.model.Funcionario;
 
-
 public class TestaFuncionario {
     public static void main(String[] args) {
 
@@ -11,5 +10,7 @@ public class TestaFuncionario {
                 937.00,
                 "123456"
         );
+
+        System.out.println(laura.getSalario());
     }
 }

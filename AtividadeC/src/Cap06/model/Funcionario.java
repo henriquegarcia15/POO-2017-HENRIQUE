@@ -5,6 +5,11 @@ public class Funcionario {
     private String nome;
     private double salario;
     private String rg;
+    private int indicador = 1;
+
+    public Funcionario() {
+
+    }
 
     public Funcionario(String nome, double salario, String rg) {
         this.nome = nome;
@@ -12,14 +17,13 @@ public class Funcionario {
         this.rg = rg;
     }
 
+    public int getIndicador() {
+        return indicador++;
+    }
+
     public String getNome() {
         return nome;
     }
-
-//    public void setNome(String nome) {
-//        this.nome = nome;
-//    }
-
 
     public double getSalario() {
         return salario;
@@ -33,17 +37,9 @@ public class Funcionario {
         return rg;
     }
 
-//    public void setRg(String rg) {
-//        this.rg = rg;
-//    }
-
-//    public void recebeAumento(double aumento){
-//        this.salario += aumento;
-//    }
-
-//    public double calculaGanhoAnual(){
-//        return this.salario * 12;
-//    }
+    public double getGanhoAnual(){
+        return this.salario * 12;
+    }
 
     @Override
     public String toString(){
