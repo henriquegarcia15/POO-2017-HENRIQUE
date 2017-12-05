@@ -20,7 +20,7 @@ public class TestaAtualizadorDeContas {
 
         AtualizadorDeContas adc = new AtualizadorDeContas(1);
 
-//        System.out.println("Atualizador de contas.\n");
+        System.out.println("Atualizador de contas.\n");
 
         System.out.println("Conta normal: ");
         adc.roda(c);
@@ -29,6 +29,6 @@ public class TestaAtualizadorDeContas {
         System.out.println("\nConta poupança: ");
         adc.roda(cp);
 
-//        System.out.println("\nSaldo total: "+ adc.getSaldoTotal());
+        System.out.println("\nSaldo total: "+ adc.getSaldoTotal());
     }
 }
