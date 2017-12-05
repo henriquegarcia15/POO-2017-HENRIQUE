@@ -1,3 +1,3 @@
-<h4>Disciplina de Programação Orientada a Objetos</h4>
+<h4>Disciplina: <em>Programação Orientada a Objetos</em></h4>
 
-<h4>Professor: Rogério Silva</h4>
+<h4>Professor: <em>Rogério Silva</em></h4>
