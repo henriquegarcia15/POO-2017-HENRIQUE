@@ -12,11 +12,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Questao01.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Questao01.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercicio01/Questao01.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Questao02.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercicio01/Questao02.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Questao05.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercicio01/Questao05.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -33,6 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Exercicio01/Questao01.txt" />
+        <option value="$PROJECT_DIR$/src/Exercicio01/Questao02.txt" />
+        <option value="$PROJECT_DIR$/src/Exercicio01/Questao05.txt" />
       </list>
     </option>
   </component>
@@ -220,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512702866814</updated>
       <workItem from="1512702868518" duration="10000" />
-      <workItem from="1513012468359" duration="2126000" />
+      <workItem from="1513012468359" duration="3439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2136000" />
+    <option name="totallyTimeSpent" value="3449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -274,6 +296,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercicio01/Questao02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercicio01/Questao05.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>

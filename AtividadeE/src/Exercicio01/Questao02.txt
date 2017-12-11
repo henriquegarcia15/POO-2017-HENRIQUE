@@ -1,0 +1,4 @@
+- Atributos: características e propriedades que os objetos possuem.
+    ex: conta bancária (número, saldo, titular);
+- Métodos: são as ações que os objetos podem exercer quando solicitados.
+    ex: cães (latir, correr);

@@ -1,0 +1,6 @@
+- 5 objetos de um sistema de controle acadêmico:
+    > aluno;
+    > professor;
+    > disciplina;
+    > turma;
+    > histórico escolar;
