@@ -1,0 +1,5 @@
+-> Objetos possuem características, comportamentos e instanciação com os devidos atributos qualificados.
+    ex: pessoa (cor, altura, CPF);
+-> Classe é a origem dos objeos. São modelos a partir dos quais os objetos são instanciados.
+    ex: planta (classe) e casa construída (objeto);
+        receita (classe) e bolo (objeto);
