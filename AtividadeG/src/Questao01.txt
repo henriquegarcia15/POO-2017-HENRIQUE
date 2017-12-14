@@ -1,0 +1,1 @@
+Não, pois ela é uma classe de referência. serve apenas para demonstrar quais métodos devem ser reescritos.
