@@ -1,12 +1,12 @@
-package Questao02.model;
+package Questao02e03e04.model;
 
 public class ContaCorrente extends Conta implements Tributavel{
 
     private double tarifa;
     private double saldo;
 
-    public ContaCorrente(Pessoa titular) {
-        super(titular);
+    public ContaCorrente() {
+
     }
 
     @Override
@@ -30,10 +30,9 @@ public class ContaCorrente extends Conta implements Tributavel{
         //Tarifar..
     }
 
-    @Override
     public double obterSaldo() {
         //Saldo mais limite
-        return super.obterSaldo();
+        return super.getSaldo();
     }
 
     private void tarifarDeposito() {

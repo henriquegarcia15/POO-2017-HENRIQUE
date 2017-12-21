@@ -1,13 +1,11 @@
-package Questao02.model;
+package Questao02e03e04.model;
 
 public abstract class Conta {
 
     public int numero;
-	private Pessoa titular;
 	private double saldo;
 	
-	public Conta(Pessoa titular) {
-		this.titular = titular;
+	public Conta() {
 	}
 	
 	public boolean sacar(double valor){
@@ -39,19 +37,10 @@ public abstract class Conta {
 	}
 	
 	public String obterSituacao() {
-		return (this.estaNegativa() ? "Conta NEGATIVA" : "Conta POSITIVA") + " Saldo: "+this.obterSaldo();
-	}
-	
-	public double obterSaldo() {
-		return this.saldo;
-	}
-	
-	public String obterNomeDoTitular() {
-		return this.titular.getNome();
-	}
-	
-	public Pessoa getTitular() {
-		return titular;
+		return (this.estaNegativa() ? "Conta NEGATIVA" : "Conta POSITIVA") + " Saldo: "+this.getSaldo();
 	}
 
+	public double getSaldo() {
+		return saldo;
+	}
 }
