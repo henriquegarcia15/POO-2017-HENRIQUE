@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calcula Média</string>
+    <string name="saudacao">Olá, seja bem vindo ao Calcula Média</string>
+    <string name="insira_nome">Insira seu nome</string>
+    <string name="proximo">PRÓXIMO</string>
+    <string name="nota02">Nota 02</string>
+    <string name="nota01">Nota 01</string>
+    <string name="calcular_media">CALCULAR MÉDIA</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="peso_01">Peso da Nota 01</string>
+    <string name="peso_02">Peso da Nota 02</string>
+</resources>
